@@ -1,0 +1,11 @@
+{
+  "name": "ClipGenius AI",
+  "description": "Enterprise-grade AI platform for transforming long-form video into high-performance short-form content.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

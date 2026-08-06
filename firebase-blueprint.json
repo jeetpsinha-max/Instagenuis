@@ -1,0 +1,31 @@
+{
+  "collections": {
+    "users": {
+      "description": "User profiles and settings",
+      "documents": {
+        "{userId}": {
+          "fields": {
+            "email": "string",
+            "displayName": "string",
+            "createdAt": "timestamp"
+          }
+        }
+      }
+    },
+    "projects": {
+      "description": "Video analysis projects and their clips",
+      "documents": {
+        "{projectId}": {
+          "fields": {
+            "userId": "string",
+            "videoTitle": "string",
+            "transcript": "string",
+            "clips": "array",
+            "createdAt": "timestamp",
+            "status": "string"
+          }
+        }
+      }
+    }
+  }
+}
